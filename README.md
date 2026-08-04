@@ -1,158 +1,83 @@
-# Ultrasonic Time-of-Flight (ToF) Dimension Measurement System
+# Ultrasonic ToF Dimension Measurement
 
-> Raspberry Pi-based embedded system for real-time object dimension measurement using ultrasonic Time-of-Flight (ToF) sensors.
-
-![Project](images/setup.jpg)
+A Raspberry Pi based ultrasonic measurement project developed during the Raspberry Pi Design Education Program.
 
 ---
 
-# Overview
+## Overview
 
-This project was developed during the **Creative Embedded System Education Program (2020)** at Gyeongsang National University.
+This project was developed to understand how ultrasonic distance sensors can be used for object measurement.
 
-The objective was to build a real-time embedded measurement system capable of estimating the width and height of an object using multiple ultrasonic sensors based on the **Time-of-Flight (ToF)** principle.
+The system measures the distance from multiple directions and displays the measured values on an LCD module.
 
-The system was implemented using **Python** on a **Raspberry Pi**, with multiple HC-SR04 ultrasonic sensors, an LCD display, and external circuitry for data acquisition and visualization.
-
----
-
-# Objectives
-
-- Design a real-time embedded measurement system
-- Learn Raspberry Pi hardware interfacing
-- Apply ultrasonic Time-of-Flight distance measurement
-- Display measurement results on an LCD module
-- Improve calibration accuracy through repeated testing
+The purpose of this project was educational, focusing on sensor interfacing, GPIO control, and real-time measurement using Python.
 
 ---
 
-# Hardware
+## Hardware
 
-| Component | Description |
-|-----------|-------------|
-| Raspberry Pi | Main Controller |
-| HC-SR04 ×4 | Ultrasonic Distance Sensors |
-| 16×2 LCD | Measurement Display |
-| Breadboard | Circuit Prototyping |
-| Jumper Wires | Hardware Connections |
-| Power Supply | Embedded System Power |
+- Raspberry Pi
+- HC-SR04 Ultrasonic Sensor
+- 16x2 LCD
+- Breadboard
+- Jumper Wire
 
 ---
 
-# Software
+## Software
 
 - Python
 - Raspberry Pi GPIO
-- LCD Control
-- Ultrasonic Sensor Interface
 
 ---
 
-# Measurement Principle
+## Gallery
 
-The system measures the propagation time of ultrasonic pulses.
+### Prototype
 
-1. Trigger ultrasonic pulse
-2. Receive echo signal
-3. Calculate distance using Time-of-Flight
-4. Estimate object dimensions
-5. Display results on LCD
-
-The project combines multiple ultrasonic sensors to estimate object width and height in real time.
+![](images/prototype.jpg)
 
 ---
 
-# System Architecture
+### Hardware Setup
 
-```
-Ultrasonic Sensors
-        │
-        ▼
- Raspberry Pi
-        │
-Python Measurement Program
-        │
-Distance Calculation
-        │
-Dimension Estimation
-        │
-LCD Display
-```
+![](images/hardware_setup.jpg)
 
 ---
 
-# Gallery
+### LCD Result
 
-## Prototype
-
-![Prototype](images/prototype.jpg)
+![](images/lcd_display.jpg)
 
 ---
 
-## Hardware Setup
+### Measurement Setup
 
-![Hardware](images/hardware.jpg)
-
----
-
-## Measurement System
-
-![Measurement](images/measurement.jpg)
-
----
-
-## Experimental Environment
-
-![Experiment](images/experiment.jpg)
+![](images/measurement_setup.jpg)
 
 ---
 
 ## Award
 
-The project received the **Encouragement Award (Bronze Prize)** in the Creative Embedded System Competition.
+This project received an Excellence Award in the 2020 Raspberry Pi Education Program.
 
-![Award](images/award.jpg)
+![](images/award.jpg)
 
 ---
 
-# Skills Demonstrated
+## What I Learned
 
-- Embedded System Development
-- Raspberry Pi Programming
-- Python Programming
-- Sensor Interfacing
+- Raspberry Pi GPIO Programming
+- Python Sensor Control
+- LCD Interface
+- Ultrasonic Distance Measurement
 - Hardware Debugging
-- Embedded System Integration
-- Real-time Measurement
-- Time-of-Flight (ToF)
-- Hardware Calibration
-- Problem Solving
+- Sensor Calibration
 
 ---
 
-# Lessons Learned
+## Repository
 
-Through this project, I gained practical experience in integrating embedded hardware and software.
+Only demonstration code is included.
 
-The project strengthened my understanding of:
-
-- Sensor interfacing
-- Embedded Python programming
-- Hardware debugging
-- Measurement calibration
-- Real-time data acquisition
-- System integration
-
-It also provided valuable hands-on experience in building a complete embedded system from hardware assembly to software implementation.
-
----
-
-# Repository Note
-
-This repository is intended as a portfolio summarizing the project experience.
-
-The original educational source code has not been preserved.
-
-Only project documentation and photographs are provided.
-
----
+The original educational project files are not preserved.
