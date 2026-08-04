@@ -1,83 +1,257 @@
 # Ultrasonic ToF Dimension Measurement
 
-A Raspberry Pi based ultrasonic measurement project developed during the Raspberry Pi Design Education Program.
+> Raspberry Pi and ultrasonic sensors for real-time object dimension measurement
 
 ---
 
 ## Overview
 
-This project was developed to understand how ultrasonic distance sensors can be used for object measurement.
+This project was developed during the **2020 Raspberry Pi Design Education Program** at Gyeongsang National University.
 
-The system measures the distance from multiple directions and displays the measured values on an LCD module.
+The objective was to understand ultrasonic distance sensing, Raspberry Pi GPIO programming, and real-time measurement using Python.
 
-The purpose of this project was educational, focusing on sensor interfacing, GPIO control, and real-time measurement using Python.
+Multiple HC-SR04 ultrasonic sensors were connected to a Raspberry Pi to measure the distance between sensors and an object. The measured values were displayed on a 16×2 LCD module in real time.
+
+The project focused on integrating hardware and software while learning sensor interfacing, GPIO control, and embedded system development.
+
+---
+
+## Features
+
+- Real-time distance measurement using ultrasonic sensors
+- Raspberry Pi GPIO programming
+- LCD (16×2) output
+- Python-based sensor control
+- Embedded hardware integration
+- Educational prototype for object dimension measurement
 
 ---
 
 ## Hardware
 
-- Raspberry Pi
-- HC-SR04 Ultrasonic Sensor
-- 16x2 LCD
-- Breadboard
-- Jumper Wire
+| Component | Description |
+|-----------|-------------|
+| Raspberry Pi | Main controller |
+| HC-SR04 Ultrasonic Sensor | Distance measurement |
+| 16×2 LCD Module | Measurement display |
+| Breadboard | Circuit prototyping |
+| Jumper Wires | Hardware connection |
 
 ---
 
 ## Software
 
 - Python
-- Raspberry Pi GPIO
+- Raspberry Pi GPIO Library
 
 ---
 
-## Gallery
+# Project Gallery
 
-### Prototype
+## Prototype
+
+The completed prototype used multiple ultrasonic sensors positioned around an acrylic measurement frame.
 
 ![](images/prototype.jpg)
 
 ---
 
-### Hardware Setup
+## Hardware Setup
+
+Hardware assembly including Raspberry Pi, ultrasonic sensors, LCD module, breadboard, and jumper wire connections.
 
 ![](images/hardware_setup.jpg)
 
 ---
 
-### LCD Result
+## LCD Display
+
+Real-time measurement values displayed on the LCD module during testing.
 
 ![](images/lcd_display.jpg)
 
 ---
 
-### Measurement Setup
+## Measurement Setup
 
-![](images/measurement_setup.jpg)
+The acrylic frame was designed to place an object at the center while ultrasonic sensors measured distances from multiple directions.
+
+This setup was used to understand how sensor placement affects measurement accuracy.
+
+![](images/prototype.jpg)
 
 ---
 
 ## Award
 
-This project received an Excellence Award in the 2020 Raspberry Pi Education Program.
+This project received an **Excellence Award** during the Raspberry Pi Design Education Program.
 
 ![](images/award.jpg)
 
 ---
 
-## What I Learned
+# What I Learned
 
-- Raspberry Pi GPIO Programming
-- Python Sensor Control
-- LCD Interface
-- Ultrasonic Distance Measurement
-- Hardware Debugging
-- Sensor Calibration
+Through this project I learned:
+
+- Raspberry Pi hardware configuration
+- Python programming for GPIO control
+- Ultrasonic sensor interfacing
+- LCD communication
+- Breadboard circuit construction
+- Hardware debugging
+- Sensor calibration
+- Embedded system development fundamentals
 
 ---
 
-## Repository
+## Repository Structure
 
-Only demonstration code is included.
+```
+.
+├── README.md
+├── ex.py
+├── LICENSE
+└── images
+    ├── prototype.jpg
+    ├── hardware_setup.jpg
+    ├── lcd_display.jpg
+    └── award.jpg
+```
 
-The original educational project files are not preserved.
+---
+
+## Note
+
+This repository was reconstructed for portfolio purposes.
+
+Only demonstration code and project documentation are included.
+The original educational project files were not fully preserved.# Ultrasonic ToF Dimension Measurement
+
+> Raspberry Pi and ultrasonic sensors for real-time object dimension measurement
+
+---
+
+## Overview
+
+This project was developed during the **2020 Raspberry Pi Design Education Program** at Gyeongsang National University.
+
+The objective was to understand ultrasonic distance sensing, Raspberry Pi GPIO programming, and real-time measurement using Python.
+
+Multiple HC-SR04 ultrasonic sensors were connected to a Raspberry Pi to measure the distance between sensors and an object. The measured values were displayed on a 16×2 LCD module in real time.
+
+The project focused on integrating hardware and software while learning sensor interfacing, GPIO control, and embedded system development.
+
+---
+
+## Features
+
+- Real-time distance measurement using ultrasonic sensors
+- Raspberry Pi GPIO programming
+- LCD (16×2) output
+- Python-based sensor control
+- Embedded hardware integration
+- Educational prototype for object dimension measurement
+
+---
+
+## Hardware
+
+| Component | Description |
+|-----------|-------------|
+| Raspberry Pi | Main controller |
+| HC-SR04 Ultrasonic Sensor | Distance measurement |
+| 16×2 LCD Module | Measurement display |
+| Breadboard | Circuit prototyping |
+| Jumper Wires | Hardware connection |
+
+---
+
+## Software
+
+- Python
+- Raspberry Pi GPIO Library
+
+---
+
+# Project Gallery
+
+## Prototype
+
+The completed prototype used multiple ultrasonic sensors positioned around an acrylic measurement frame.
+
+![](images/prototype.jpg)
+
+---
+
+## Hardware Setup
+
+Hardware assembly including Raspberry Pi, ultrasonic sensors, LCD module, breadboard, and jumper wire connections.
+
+![](images/hardware_setup.jpg)
+
+---
+
+## LCD Display
+
+Real-time measurement values displayed on the LCD module during testing.
+
+![](images/lcd_display.jpg)
+
+---
+
+## Measurement Setup
+
+The acrylic frame was designed to place an object at the center while ultrasonic sensors measured distances from multiple directions.
+
+This setup was used to understand how sensor placement affects measurement accuracy.
+
+![](images/prototype.jpg)
+
+---
+
+## Award
+
+This project received an **Excellence Award** during the Raspberry Pi Design Education Program.
+
+![](images/award.jpg)
+
+---
+
+# What I Learned
+
+Through this project I learned:
+
+- Raspberry Pi hardware configuration
+- Python programming for GPIO control
+- Ultrasonic sensor interfacing
+- LCD communication
+- Breadboard circuit construction
+- Hardware debugging
+- Sensor calibration
+- Embedded system development fundamentals
+
+---
+
+## Repository Structure
+
+```
+.
+├── README.md
+├── ex.py
+├── LICENSE
+└── images
+    ├── prototype.jpg
+    ├── hardware_setup.jpg
+    ├── lcd_display.jpg
+    └── award.jpg
+```
+
+---
+
+## Note
+
+This repository was reconstructed for portfolio purposes.
+
+Only demonstration code and project documentation are included.
+The original educational project files were not fully preserved.
