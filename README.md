@@ -66,7 +66,7 @@ The project was designed to gain practical experience in embedded systems, senso
 
 ## 🔹 Hardware Setup
 
-<img src="images/hardware_setup.jpg" width="700">
+<img src="images/hardware.jpg" width="700">
 
 ---
 
