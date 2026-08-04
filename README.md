@@ -117,12 +117,18 @@ Bronze Prize – Creative Embedded System Competition (2020)
 ├── LICENSE
 └── images
     ├── prototype.jpg
-    ├── hardware_setup.jpg
+    ├── hardware.jpg
     ├── lcd_display.jpg
     ├── measurement_setup.jpg
     └── award.jpg
 ```
+## Repository Note
 
+This repository documents an educational embedded systems project completed in 2020.
+
+The original project source code is no longer available.
+
+Therefore, this repository focuses on the project overview, hardware implementation, photographs, and development experience.
 ---
 
 <div align="center">
