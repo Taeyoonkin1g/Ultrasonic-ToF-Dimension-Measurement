@@ -20,9 +20,9 @@
 
 This project was developed during the **2020 Raspberry Pi Design Education Program** at Gyeongsang National University.
 
-Using Raspberry Pi and multiple HC-SR04 ultrasonic sensors, the system measures distances and displays the results on a 16×2 LCD module in real time.
+The objective was to build an embedded measurement system capable of estimating object dimensions using ultrasonic Time-of-Flight (ToF) sensors. The project provided hands-on experience in Raspberry Pi programming, sensor interfacing, LCD communication, and hardware integration using Python.
 
-The project was designed to gain practical experience in embedded systems, sensor interfacing, and Python-based hardware control.
+This project laid the foundation for my continued interest in embedded systems and hardware engineering.
 
 ---
 
@@ -31,9 +31,9 @@ The project was designed to gain practical experience in embedded systems, senso
 - 🐍 Python Programming
 - 🍓 Raspberry Pi
 - 📡 HC-SR04 Ultrasonic Sensors
-- 🖥 LCD Display
+- 🖥 16×2 LCD Display
 - 🔌 Embedded Hardware Integration
-- 🏆 Bronze Prize (Creative Embedded System Competition)
+- 🏆 Bronze Prize – Creative Embedded System Competition (2020)
 
 ---
 
@@ -42,10 +42,10 @@ The project was designed to gain practical experience in embedded systems, senso
 | Component | Description |
 |-----------|-------------|
 | Raspberry Pi | Main Controller |
-| HC-SR04 | Ultrasonic Distance Sensor |
-| LCD 16×2 | Measurement Display |
+| HC-SR04 Ultrasonic Sensor | Distance Measurement |
+| 16×2 LCD Module | Measurement Display |
 | Breadboard | Circuit Prototyping |
-| Jumper Wires | Hardware Connection |
+| Jumper Wires | Hardware Connections |
 
 ---
 
@@ -60,11 +60,15 @@ The project was designed to gain practical experience in embedded systems, senso
 
 ## 🔹 Prototype
 
+Complete prototype of the ultrasonic dimension measurement system.
+
 <img src="images/prototype.jpg" width="700">
 
 ---
 
 ## 🔹 Hardware Setup
+
+Hardware configuration including Raspberry Pi, ultrasonic sensors, LCD module, and breadboard connections.
 
 <img src="images/hardware.jpg" width="700">
 
@@ -72,11 +76,15 @@ The project was designed to gain practical experience in embedded systems, senso
 
 ## 🔹 LCD Display
 
+Real-time measurement values displayed on the LCD module.
+
 <img src="images/lcd_display.jpg" width="700">
 
 ---
 
 ## 🔹 Measurement Setup
+
+Experimental setup used to evaluate the measurement system and sensor placement.
 
 <img src="images/measurement_setup.jpg" width="700">
 
@@ -86,34 +94,30 @@ The project was designed to gain practical experience in embedded systems, senso
 
 <img src="images/award.jpg" width="650">
 
-Bronze Prize – Creative Embedded System Competition (2020)
+**Bronze Prize** awarded in the **Creative Embedded System Competition (2020).**
 
 ---
 
 # 📚 What I Learned
 
-✔ Raspberry Pi GPIO Programming
+Through this project, I gained practical experience in:
 
-✔ Python-based Embedded Programming
-
-✔ Ultrasonic Sensor Interfacing
-
-✔ LCD Communication
-
-✔ Hardware Integration
-
-✔ Breadboard Prototyping
-
-✔ Embedded System Debugging
+- Raspberry Pi GPIO Programming
+- Python-based Embedded Programming
+- Ultrasonic Sensor Interfacing
+- LCD Communication
+- Hardware Integration
+- Breadboard Prototyping
+- Embedded System Debugging
+- Basic Sensor Calibration
 
 ---
 
-# 📂 Repository
+# 📂 Repository Structure
 
 ```text
 .
 ├── README.md
-├── ex.py
 ├── LICENSE
 └── images
     ├── prototype.jpg
@@ -122,13 +126,15 @@ Bronze Prize – Creative Embedded System Competition (2020)
     ├── measurement_setup.jpg
     └── award.jpg
 ```
-## Repository Note
+
+---
+
+## 📝 Repository Note
 
 This repository documents an educational embedded systems project completed in 2020.
 
-The original project source code is no longer available.
+Since the original project source code was not preserved, this repository focuses on the project overview, hardware implementation, project photographs, and the engineering experience gained throughout the project.
 
-Therefore, this repository focuses on the project overview, hardware implementation, photographs, and development experience.
 ---
 
 <div align="center">
