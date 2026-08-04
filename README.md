@@ -2,7 +2,7 @@
 
 # 📏 Ultrasonic ToF Dimension Measurement
 
-### Raspberry Pi-based Embedded Measurement System
+### Raspberry Pi-based Ultrasonic Measurement System
 
 <img src="images/prototype.jpg" width="700">
 
@@ -20,19 +20,16 @@
 
 This project was developed during the **2020 Raspberry Pi Design Education Program** at Gyeongsang National University.
 
-The objective was to build an embedded measurement system capable of estimating object dimensions using ultrasonic Time-of-Flight (ToF) sensors. The project provided hands-on experience in Raspberry Pi programming, sensor interfacing, LCD communication, and hardware integration using Python.
-
-This project laid the foundation for my continued interest in embedded systems and hardware engineering.
+The objective was to build an embedded measurement system capable of estimating object dimensions using ultrasonic Time-of-Flight (ToF) sensors. Through this project, I gained hands-on experience in Raspberry Pi programming, ultrasonic sensor interfacing, LCD communication, and embedded hardware integration using Python.
 
 ---
 
 # ✨ Highlights
 
-- 🐍 Python Programming
-- 🍓 Raspberry Pi
-- 📡 HC-SR04 Ultrasonic Sensors
-- 🖥 16×2 LCD Display
-- 🔌 Embedded Hardware Integration
+- 📏 Real-time Object Dimension Measurement
+- 🍓 Raspberry Pi-based Embedded System
+- 📡 Ultrasonic Time-of-Flight (ToF) Sensing
+- 🖥 LCD-based Measurement Visualization
 - 🏆 Bronze Prize – Creative Embedded System Competition (2020)
 
 ---
@@ -53,6 +50,7 @@ This project laid the foundation for my continued interest in embedded systems a
 
 - Python
 - Raspberry Pi GPIO
+- Embedded Hardware Control
 
 ---
 
@@ -60,7 +58,7 @@ This project laid the foundation for my continued interest in embedded systems a
 
 ## 🔹 Prototype
 
-Complete prototype of the ultrasonic dimension measurement system.
+Completed prototype of the ultrasonic Time-of-Flight (ToF) measurement system.
 
 <img src="images/prototype.jpg" width="700">
 
@@ -68,7 +66,7 @@ Complete prototype of the ultrasonic dimension measurement system.
 
 ## 🔹 Hardware Setup
 
-Hardware configuration including Raspberry Pi, ultrasonic sensors, LCD module, and breadboard connections.
+Overall hardware configuration including Raspberry Pi, ultrasonic sensors, LCD module, and breadboard connections.
 
 <img src="images/hardware.jpg" width="700">
 
@@ -76,7 +74,7 @@ Hardware configuration including Raspberry Pi, ultrasonic sensors, LCD module, a
 
 ## 🔹 LCD Display
 
-Real-time measurement values displayed on the LCD module.
+Real-time measurement results displayed on the 16×2 LCD module.
 
 <img src="images/lcd_display.jpg" width="700">
 
@@ -84,7 +82,7 @@ Real-time measurement values displayed on the LCD module.
 
 ## 🔹 Measurement Setup
 
-Experimental setup used to evaluate the measurement system and sensor placement.
+Experimental setup used for sensor calibration and object dimension measurement.
 
 <img src="images/measurement_setup.jpg" width="700">
 
@@ -113,27 +111,11 @@ Through this project, I gained practical experience in:
 
 ---
 
-# 📂 Repository Structure
-
-```text
-.
-├── README.md
-├── LICENSE
-└── images
-    ├── prototype.jpg
-    ├── hardware.jpg
-    ├── lcd_display.jpg
-    ├── measurement_setup.jpg
-    └── award.jpg
-```
-
----
-
 ## 📝 Repository Note
 
 This repository documents an educational embedded systems project completed in 2020.
 
-Since the original project source code was not preserved, this repository focuses on the project overview, hardware implementation, project photographs, and the engineering experience gained throughout the project.
+Since the original educational source code was not preserved, this repository focuses on documenting the project through hardware implementation, project photographs, and the engineering experience gained throughout the development process.
 
 ---
 
