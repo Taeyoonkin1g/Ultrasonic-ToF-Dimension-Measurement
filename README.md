@@ -1,65 +1,130 @@
-# Ultrasonic ToF Dimension Measurement
+# Ultrasonic Time-of-Flight (ToF) Dimension Measurement System
 
-<p align="center">
-  <img src="images/measurement_setup.jpg" width="700">
-</p>
-
-## Overview
-
-This project was developed during the 2020 Raspberry Pi Education Program at Gyeongsang National University.
-
-The objective was to build a Raspberry Pi-based ultrasonic measurement system capable of estimating object dimensions using the Time-of-Flight (ToF) principle.
-
-The project focused on sensor interfacing, embedded programming, hardware integration, and real-time measurement.
+A Raspberry Pi-based embedded system for real-time object dimension measurement using ultrasonic Time-of-Flight (ToF) sensors.
 
 ---
 
-## Features
+# Project Overview
 
-- Raspberry Pi-based embedded system
-- Ultrasonic Time-of-Flight (ToF) measurement
-- Real-time object dimension estimation
-- LCD display for measurement results
-- Multi-sensor hardware integration
+This project was developed during the Creative Embedded System Program at Gyeongsang National University.
 
----
+The objective was to build a real-time measurement system capable of estimating the width and height of an object using multiple ultrasonic sensors. The system continuously acquired sensor data, processed the measured distances, and displayed the calculated dimensions on an LCD module.
 
-## Gallery
-
-### Prototype
-
-![Prototype](images/prototype.jpg)
+This project provided practical experience with embedded system integration, sensor interfacing, and real-time data acquisition using Raspberry Pi.
 
 ---
 
-### Hardware Configuration
+# Objectives
 
-![Hardware](images/hardware.jpg)
-
----
-
-### Measurement Setup
-
-![Measurement Setup](images/measurement_setup.jpg)
+- Build a real-time measurement system
+- Interface ultrasonic sensors with Raspberry Pi
+- Acquire distance data continuously
+- Calculate object dimensions
+- Display measurement results on LCD
 
 ---
 
-### LCD Output
+# System Architecture
 
-![LCD](images/lcd_result.jpg)
+```
+
+Ultrasonic Sensors
+↓
+Distance Measurement
+↓
+Raspberry Pi
+↓
+Python Processing
+↓
+Dimension Calculation
+↓
+LCD Display
+
+```
 
 ---
 
-### Award
+# Hardware Components
 
-![Award](images/award.jpg)
+| Component | Description |
+|-----------|-------------|
+| Raspberry Pi | Main controller |
+| HC-SR04 Ultrasonic Sensors | Distance measurement |
+| LCD 16x2 Display | Measurement output |
+| Breadboard | Circuit prototyping |
+| Jumper Wires | Hardware connections |
 
 ---
 
-## Technologies
+# Measurement Principle
 
-- Raspberry Pi
-- Python
-- HC-SR04 Ultrasonic Sensor
-- LCD Display
-- Embedded Systems
+The system estimates object dimensions using the Time-of-Flight (ToF) principle.
+
+Each ultrasonic sensor emits an ultrasonic pulse and measures the round-trip travel time of the reflected signal. The measured distance is then converted into object dimensions through calibration.
+
+---
+
+# Experimental Setup
+
+The prototype was assembled using multiple ultrasonic sensors positioned around the measurement area.
+
+Sensor measurements were collected continuously, processed by Raspberry Pi, and displayed on the LCD module in real time.
+
+---
+
+# Gallery
+
+## Final Prototype
+
+![](images/prototype.jpg)
+
+---
+
+## Hardware Configuration
+
+![](images/hardware.jpg)
+
+---
+
+## Experimental Setup
+
+![](images/measurement_setup.jpg)
+
+---
+
+## LCD Measurement Result
+
+![](images/lcd_result.jpg)
+
+---
+
+## Award
+
+Bronze Prize (Encouragement Award)
+
+Creative Embedded System Competition
+
+![](images/award.jpg)
+
+---
+
+# Lessons Learned
+
+Through this project, I learned:
+
+- Raspberry Pi hardware interfacing
+- Ultrasonic sensor calibration
+- Real-time embedded programming
+- Sensor data acquisition
+- Basic embedded system debugging
+- Hardware integration and testing
+
+---
+
+# Future Improvements
+
+- Improve measurement accuracy
+- Apply digital filtering techniques
+- Optimize calibration algorithms
+- Develop a graphical user interface
+- Support additional sensor configurations
