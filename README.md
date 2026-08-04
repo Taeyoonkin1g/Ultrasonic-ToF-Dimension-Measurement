@@ -1,5 +1,5 @@
 # Ultrasonic ToF Dimension Measurement
-
+![Prototype](images/setup.jpg)
 ## Overview
 
 This project was developed as part of a Raspberry Pi educational design program in 2020.
