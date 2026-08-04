@@ -1,130 +1,158 @@
 # Ultrasonic Time-of-Flight (ToF) Dimension Measurement System
 
-A Raspberry Pi-based embedded system for real-time object dimension measurement using ultrasonic Time-of-Flight (ToF) sensors.
+> Raspberry Pi-based embedded system for real-time object dimension measurement using ultrasonic Time-of-Flight (ToF) sensors.
+
+![Project](images/setup.jpg)
 
 ---
 
-# Project Overview
+# Overview
 
-This project was developed during the Creative Embedded System Program at Gyeongsang National University.
+This project was developed during the **Creative Embedded System Education Program (2020)** at Gyeongsang National University.
 
-The objective was to build a real-time measurement system capable of estimating the width and height of an object using multiple ultrasonic sensors. The system continuously acquired sensor data, processed the measured distances, and displayed the calculated dimensions on an LCD module.
+The objective was to build a real-time embedded measurement system capable of estimating the width and height of an object using multiple ultrasonic sensors based on the **Time-of-Flight (ToF)** principle.
 
-This project provided practical experience with embedded system integration, sensor interfacing, and real-time data acquisition using Raspberry Pi.
+The system was implemented using **Python** on a **Raspberry Pi**, with multiple HC-SR04 ultrasonic sensors, an LCD display, and external circuitry for data acquisition and visualization.
 
 ---
 
 # Objectives
 
-- Build a real-time measurement system
-- Interface ultrasonic sensors with Raspberry Pi
-- Acquire distance data continuously
-- Calculate object dimensions
-- Display measurement results on LCD
+- Design a real-time embedded measurement system
+- Learn Raspberry Pi hardware interfacing
+- Apply ultrasonic Time-of-Flight distance measurement
+- Display measurement results on an LCD module
+- Improve calibration accuracy through repeated testing
+
+---
+
+# Hardware
+
+| Component | Description |
+|-----------|-------------|
+| Raspberry Pi | Main Controller |
+| HC-SR04 ×4 | Ultrasonic Distance Sensors |
+| 16×2 LCD | Measurement Display |
+| Breadboard | Circuit Prototyping |
+| Jumper Wires | Hardware Connections |
+| Power Supply | Embedded System Power |
+
+---
+
+# Software
+
+- Python
+- Raspberry Pi GPIO
+- LCD Control
+- Ultrasonic Sensor Interface
+
+---
+
+# Measurement Principle
+
+The system measures the propagation time of ultrasonic pulses.
+
+1. Trigger ultrasonic pulse
+2. Receive echo signal
+3. Calculate distance using Time-of-Flight
+4. Estimate object dimensions
+5. Display results on LCD
+
+The project combines multiple ultrasonic sensors to estimate object width and height in real time.
 
 ---
 
 # System Architecture
 
 ```
-
 Ultrasonic Sensors
-↓
-Distance Measurement
-↓
-Raspberry Pi
-↓
-Python Processing
-↓
-Dimension Calculation
-↓
+        │
+        ▼
+ Raspberry Pi
+        │
+Python Measurement Program
+        │
+Distance Calculation
+        │
+Dimension Estimation
+        │
 LCD Display
-
 ```
-
----
-
-# Hardware Components
-
-| Component | Description |
-|-----------|-------------|
-| Raspberry Pi | Main controller |
-| HC-SR04 Ultrasonic Sensors | Distance measurement |
-| LCD 16x2 Display | Measurement output |
-| Breadboard | Circuit prototyping |
-| Jumper Wires | Hardware connections |
-
----
-
-# Measurement Principle
-
-The system estimates object dimensions using the Time-of-Flight (ToF) principle.
-
-Each ultrasonic sensor emits an ultrasonic pulse and measures the round-trip travel time of the reflected signal. The measured distance is then converted into object dimensions through calibration.
-
----
-
-# Experimental Setup
-
-The prototype was assembled using multiple ultrasonic sensors positioned around the measurement area.
-
-Sensor measurements were collected continuously, processed by Raspberry Pi, and displayed on the LCD module in real time.
 
 ---
 
 # Gallery
 
-## Final Prototype
+## Prototype
 
-![](images/prototype.jpg)
-
----
-
-## Hardware Configuration
-
-![](images/hardware.jpg)
+![Prototype](images/prototype.jpg)
 
 ---
 
-## Experimental Setup
+## Hardware Setup
 
-![](images/measurement_setup.jpg)
+![Hardware](images/hardware.jpg)
 
 ---
 
-## LCD Measurement Result
+## Measurement System
 
-![](images/lcd_result.jpg)
+![Measurement](images/measurement.jpg)
+
+---
+
+## Experimental Environment
+
+![Experiment](images/experiment.jpg)
 
 ---
 
 ## Award
 
-Bronze Prize (Encouragement Award)
+The project received the **Encouragement Award (Bronze Prize)** in the Creative Embedded System Competition.
 
-Creative Embedded System Competition
+![Award](images/award.jpg)
 
-![](images/award.jpg)
+---
+
+# Skills Demonstrated
+
+- Embedded System Development
+- Raspberry Pi Programming
+- Python Programming
+- Sensor Interfacing
+- Hardware Debugging
+- Embedded System Integration
+- Real-time Measurement
+- Time-of-Flight (ToF)
+- Hardware Calibration
+- Problem Solving
 
 ---
 
 # Lessons Learned
 
-Through this project, I learned:
+Through this project, I gained practical experience in integrating embedded hardware and software.
 
-- Raspberry Pi hardware interfacing
-- Ultrasonic sensor calibration
-- Real-time embedded programming
-- Sensor data acquisition
-- Basic embedded system debugging
-- Hardware integration and testing
+The project strengthened my understanding of:
+
+- Sensor interfacing
+- Embedded Python programming
+- Hardware debugging
+- Measurement calibration
+- Real-time data acquisition
+- System integration
+
+It also provided valuable hands-on experience in building a complete embedded system from hardware assembly to software implementation.
 
 ---
 
-# Future Improvements
+# Repository Note
 
-- Improve measurement accuracy
-- Apply digital filtering techniques
-- Optimize calibration algorithms
-- Develop a graphical user interface
-- Support additional sensor configurations
+This repository is intended as a portfolio summarizing the project experience.
+
+The original educational source code has not been preserved.
+
+Only project documentation and photographs are provided.
+
+---
