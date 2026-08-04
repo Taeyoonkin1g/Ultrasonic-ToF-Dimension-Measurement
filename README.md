@@ -1,21 +1,65 @@
 # Ultrasonic ToF Dimension Measurement
-![Prototype](images/prototype.jpg)
+
+<p align="center">
+  <img src="images/measurement_setup.jpg" width="700">
+</p>
+
 ## Overview
 
-This project was developed as part of a Raspberry Pi educational design program in 2020.
+This project was developed during the 2020 Raspberry Pi Education Program at Gyeongsang National University.
 
-The objective was to build a real-time object dimension measurement system using ultrasonic Time-of-Flight (ToF) sensors. The prototype measured the width and height of objects and displayed the measured values through an LCD module.
+The objective was to build a Raspberry Pi-based ultrasonic measurement system capable of estimating object dimensions using the Time-of-Flight (ToF) principle.
 
-The project focused on sensor interfacing, embedded programming, hardware integration, and real-time data acquisition using Raspberry Pi.
+The project focused on sensor interfacing, embedded programming, hardware integration, and real-time measurement.
 
 ---
 
 ## Features
 
-- Built with Raspberry Pi for embedded system development.
-- Utilized ultrasonic Time-of-Flight (ToF) sensors for non-contact distance measurement.
-- Displayed real-time measurement results on a 16×2 LCD module.
-- Integrated multiple hardware modules through GPIO interfaces.
-- Designed as an educational embedded system project emphasizing hardware integration and sensor interfacing.
+- Raspberry Pi-based embedded system
+- Ultrasonic Time-of-Flight (ToF) measurement
+- Real-time object dimension estimation
+- LCD display for measurement results
+- Multi-sensor hardware integration
 
-  
+---
+
+## Gallery
+
+### Prototype
+
+![Prototype](images/prototype.jpg)
+
+---
+
+### Hardware Configuration
+
+![Hardware](images/hardware.jpg)
+
+---
+
+### Measurement Setup
+
+![Measurement Setup](images/measurement_setup.jpg)
+
+---
+
+### LCD Output
+
+![LCD](images/lcd_result.jpg)
+
+---
+
+### Award
+
+![Award](images/award.jpg)
+
+---
+
+## Technologies
+
+- Raspberry Pi
+- Python
+- HC-SR04 Ultrasonic Sensor
+- LCD Display
+- Embedded Systems
